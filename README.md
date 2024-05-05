@@ -31,8 +31,8 @@ wandb
 ```ruby
 $ accelerate config default
 ```
-4. run the supervised fine-tuning by "SFT/sft_llama2.py"
-5. run DPO by "DPO/dpo_llama2.py", or reward modeling + PPO by "RM/reward_modeling_llama.py + PPO/PPO.py"
+4. run the supervised fine-tuning by "SFT/sft.py"
+5. run DPO by "DPO/dpo_tune.py", or reward modeling + PPO by "RM/reward_modeling.py + PPO/ppo_tune.py"
 6. run "merge_peft_adapter.py" to merge the fine-tuned layers and the original model.
 
 
