@@ -32,7 +32,7 @@ wandb
 $ accelerate config default
 ```
 4. run the supervised fine-tuning by "SFT/sft.py"
-5. run DPO by "DPO/dpo_tune.py", or reward modeling + PPO by "RM/reward_modeling.py + PPO/ppo_tune.py"
+5. run DPO by "DPO/dpo_tune.py", or reward modeling + PPO by "RM/reward_modeling.py + PG/ppo_tune.py"
 6. run "merge_peft_adapter.py" to merge the fine-tuned layers and the original model.
 
 
@@ -45,7 +45,7 @@ Thanks to the tools and public models on Huggingface!
 ├── DPO
 │   ├── dpo_tune.py
 │   └── dpo_tuned
-├── PPO
+├── PG
 │   └── ppo_tune.py
 ├── RM
 │   └── reward_modeling.py
