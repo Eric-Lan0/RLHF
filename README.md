@@ -36,10 +36,6 @@ $ accelerate config default
 6. run "merge_peft_adapter.py" to merge the fine-tuned layers and the original model.
 
 
-## Acknowledgement
-Thanks to the tools and public models on Huggingface!
-
-
 ```
 .
 ├── DPO
